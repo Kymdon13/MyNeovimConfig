@@ -15,5 +15,4 @@ return {
     version = '*',
     dependencies = 'nvim-tree/nvim-web-devicons',
   },
-  -- require 'custom.plugins.bufferline'
 }
