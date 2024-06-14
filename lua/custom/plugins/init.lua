@@ -3,16 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  {
-    'numToStr/Comment.nvim',
-    opts = {
-      -- add any options here
-    },
-    lazy = false,
-  },
-  {
-    'akinsho/bufferline.nvim',
-    version = '*',
-    dependencies = 'nvim-tree/nvim-web-devicons',
-  },
+  -- add your own code here
 }

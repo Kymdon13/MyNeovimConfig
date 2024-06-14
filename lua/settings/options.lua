@@ -29,6 +29,9 @@ vim.g.neovide_cursor_trail_length = 1.1
 -- 设置光标动画的帧率
 vim.g.neovide_cursor_animation_fps = 60
 
+vim.opt.termguicolors = true
+
+require('bufferline').setup {}
 require 'keymaps'
 -------------------------------------------------- Kymdon的配置
 
